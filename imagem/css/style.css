@@ -1,0 +1,58 @@
+.project-card-img {
+    width: 100%;
+    height: 180px;       /* altura fixa igual pra todas */
+    object-fit: cover;   /* corta a imagem mantendo a proporção, sem esticar */
+    object-position: center; /* centraliza o corte */
+}
+
+.gallery-img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+:root {
+    --bs-primary: #1a6f5c;
+    --bs-primary-rgb: 26, 111, 92;
+}
+
+body {
+    background-color: #f4f6f8;
+}
+
+/* Botões primários */
+.btn-primary {
+    --bs-btn-bg: #1a6f5c;
+    --bs-btn-border-color: #1a6f5c;
+    --bs-btn-hover-bg: #14574a;
+    --bs-btn-hover-border-color: #14574a;
+    --bs-btn-active-bg: #114539;
+    --bs-btn-active-border-color: #114539;
+}
+
+/* Links */
+a {
+    color: #1a6f5c;
+}
+a:hover {
+    color: #14574a;
+}
+
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+    border-radius: 0.75rem 0.75rem 0 0 !important;
+    font-weight: 600;
+}
+
+.navbar h5 {
+    color: #2abb9c;
+}
